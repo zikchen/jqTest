@@ -1,0 +1,120 @@
+.banner{
+	background:url(../image/images/banner-photo-3_02.png);
+	background-size: cover;
+}
+.banner h1{
+	color: #ffffff;
+    font-size: 48px;
+    padding: 160px 0px 0px 40px;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: center;	
+}
+.banner input{
+	background: #ffffff;
+	border:1px solid #ffffff;
+	width: 620px;
+	height: 52px;
+	margin-left: 450px;
+}
+.banner .magnifier{
+	width: 5%;
+	background: #ffffff url(../image/magnifier.svg) center no-repeat ; 
+	background-size:contain;
+	position: absolute;
+	right: 29%;
+
+}
+.banner p{
+	font-size: 30px;
+	color: #00cc99;
+	padding: 20px 0px 0px 40px;	
+	text-align: center;
+}
+.content{
+	margin:40px auto;
+}
+.content div{
+	margin-bottom: 50px;
+}
+.content h2{
+	font-size: 36px;
+	color: #00cc99;
+	display: inline-block;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+.content p{
+	font-size: 20px;
+	color: #c0c0c0;
+	display: inline-block;
+	line-height: 1.5em;
+	margin-left: 20px;
+}
+.content div ul  {
+	font-size: 20px;
+	color:#c0c0c0;
+}
+.content div ul a{
+	font-size: 20px;
+	color:#323228;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.content div>ul li{
+	margin-bottom: 30px;
+}
+.content .mail{
+	color: #00cc99;
+}
+.content div ul li>ul{
+	margin-top:20px;
+}
+.content .installment{
+	list-style-type: decimal;
+	list-style-position: inside;
+	text-indent: 2em;
+}
+.content .refund{
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: 4em;	
+}
+.content .assis{
+	list-style-type: disc;
+	list-style-position: inside;
+	text-indent: 4em;	
+}
+.contact h3{
+	font-size: 30px;
+	line-height: 2em;
+	display: inline-block;
+	margin-left:4em;
+}
+.contact fieldset{
+	float: right;	
+	margin-right:3em;
+}
+.contact .submit{
+	background: #00cc99;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+}
+.contact input{
+	float: right;
+	width: 470px;
+	margin-bottom: 15px;
+	border:1px solid #ffffff;
+	padding:1em;
+	border-radius: 10px;
+}
+.contact textarea{
+	float: right;
+	width: 470px;
+	margin-bottom: 15px;
+	resize: none;
+	border:1px solid #ffffff;
+	padding:1em;
+	border-radius: 10px;
+}
